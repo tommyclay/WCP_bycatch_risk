@@ -32,4 +32,3 @@ If you are interested in analysing the detailed project data in any depth, you m
 
 Here are the main codes in R to reproduce the locations using the TwGeos and SGAT R packages in the aforementioned paper.
 
-- **1_geolocator_validation_filtering.r**: Code to run an equinox filter removed positions 15 days either side of the equinoxes, a latitudinal filter to remove extreme latitudinal outliers (positions south of 70°S or north of the equator) and a speed filter removed positions that would require unrealistic flight speeds.
