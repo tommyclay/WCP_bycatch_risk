@@ -1,3 +1,13 @@
+# Metapopulation distribution shapes year-round fisheries bycatch risk for a circumpolar seabird
+
+Kalinka Rexer-Huber, Thomas A. Clay, Paulo Catry, Igor Debski, Graham Parker, Raül Ramos, Bruce C. Robertson, Peter G. Ryan, Paul M. Sagar, Andrew Stanworth, David R. Thompson, Geoffrey N. Tuck, Henri Weimerskirch, Richard A. Phillips
+
+## Overview and data
+
+The following repository contains codes to derive spatial locations based on light-based geolocation for White-chinned petrels Procellaria aequinoctialis, and processed geolocator datasets, submitted to Ecological Applications (Rexer-Huber, Clay, et al.). Scripts were customised by R. Ramos and K. Rexer-Huber following Z. Zajkova (unpubl. R scripts for GLS 2015). 
+
+## General statement (please read before using data)
+
 The attached archived file(s) contain data derived from long-term tracking projects on albatrosses and petrels at Bird Island (South Georgia), Iles Crozet, Iles Kerguelen, Falkland Islands, Marion Island (Prince Edward) Islands), Auckland Islands and Antipodes Islands.  
 
 This is a request to please let us know if you use them.  Several people have made extensive efforts overseeing the data collection for the last 25+ years.
@@ -17,3 +27,9 @@ Auckland: Kalinka Rexer-Huber (k.rexer-huber@parkerconservation.co.nz)
 4)            In order to maintain funding for the project and for further analyses, every few years we submit proposals to funding agencies. It is therefore very helpful for those running the project to know which data analyses are in progress elsewhere.
 
 If you are interested in analysing the detailed project data in any depth, you may find it helpful to have access to the full database rather than the files available here.  If so, we are always open to further collaboration.
+
+## Codes
+
+Here are the main codes in R to reproduce the locations using the TwGeos and SGAT R packages in the aforementioned paper.
+
+- **1_geolocator_validation_filtering.r**: Code to run an equinox filter removed positions 15 days either side of the equinoxes, a latitudinal filter to remove extreme latitudinal outliers (positions south of 70°S or north of the equator) and a speed filter removed positions that would require unrealistic flight speeds.
