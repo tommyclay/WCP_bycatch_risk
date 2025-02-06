@@ -1,4 +1,4 @@
-# Metapopulation distribution shapes year-round fisheries bycatch risk for a circumpolar seabird
+# Metapopulation distribution shapes year-round overlap with fisheries for a circumpolar seabird
 
 Kalinka Rexer-Huber, Thomas A. Clay, Paulo Catry, Igor Debski, Graham Parker, Raül Ramos, Bruce C. Robertson, Peter G. Ryan, Paul M. Sagar, Andrew Stanworth, David R. Thompson, Geoffrey N. Tuck, Henri Weimerskirch, Richard A. Phillips
 
