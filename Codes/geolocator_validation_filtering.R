@@ -1,5 +1,5 @@
 
-# K. Rexer-Huber and R. Ramos - DATE
+# K. Rexer-Huber and R. Ramos
 
 # This R code shows the position validation and filtering applied to GLS tracking data during processing. 
 # Scripts were customised by R. Ramos and K. Rexer-Huber following Z. Zajková (unpubl. R scripts for GLS 2015). 
@@ -7,7 +7,6 @@
 # since equinoctial latitude estimation is unreliable (Hill 1994). A latitudinal filter removed extreme latitudinal outliers 
 # (positions south of 70°S or north of the equator). Finally, a speed filter removed positions that would require unrealistic
 # flight speeds.
-
 
 ####################################################################
 
