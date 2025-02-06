@@ -4,7 +4,7 @@ Kalinka Rexer-Huber, Thomas A. Clay, Paulo Catry, Igor Debski, Graham Parker, Ra
 
 ## Overview and data
 
-The following repository contains codes to derive spatial locations based on light-based geolocation for White-chinned petrels _Procellaria aequinoctialis_, and processed geolocator datasets, published in Ecological Applications (Rexer-Huber, Clay, _et al._ 2025). Scripts were customised by R. Ramos and K. Rexer-Huber following Z. Zajkova (unpubl. R scripts for GLS 2015). 
+The following repository contains codes to derive spatial locations based on light-based geolocation for white-chinned petrels _Procellaria aequinoctialis_, and processed geolocator datasets, published in Ecological Applications (Rexer-Huber, Clay, _et al._ 2025). Scripts were customised by R. Ramos and K. Rexer-Huber following Z. Zajkova (unpubl. R scripts for GLS 2015). 
 
 ## General statement (please read before using data)
 
